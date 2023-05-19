@@ -1,6 +1,6 @@
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/v/release/wladradchenko/extensions.wunjo.wladradchenko.ru?display_name=tag&sort=semver)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru)
-[![License: MIT v1.0](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru/blob/main/LICENSE)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru/blob/main/LICENSE)
+[![GitHub package version](https://img.shields.io/github/v/release/wladradchenko/openai.wunjo.wladradchenko.ru?display_name=tag&sort=semver)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru)
+[![License: MIT v1.0](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru/blob/main/LICENSE)
 
 <p align="right">(<a href="README_en.md">EN</a>)</p>
 <div id="top"></div>
@@ -11,19 +11,26 @@
     <img src="example/man.gif" alt="Logo" width="180" height="180">
   </a>
 
-  <h3 align="center">Расширения Wunjo AI</h3>
+  <h3 align="center">ChatGPT + Dall-e 2 в Wunjo AI</h3>
+  <h4 align="center">Расширение</h4>
 
   <p align="center">
     Документация о проекте
     <br/>
     <br/>
     <br/>
-    <a href="https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru/issues">Сообщить об ошибке</a>
+    <a href="https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru/issues">Сообщить об ошибке</a>
     ·
-    <a href="https://github.com/wladradchenko/voiceai.wladradchenko.ru/issues">Запросить функцию</a>
+    <a href="https://github.com/wladradchenko/wunjo.wladradchenko.ru/issues">Запросить функцию</a>
   </p>
 </div>
 
+<!-- ABOUT THE EXTENSIONS -->
+## О расширении
+
+Расширение добовляет в основное приложение:
+- Генерация диалогов
+- Генерация изображения txt2img
 
 <!-- ABOUT THE PROJECT -->
 ## О проекте
@@ -37,22 +44,16 @@ Wunjo AI - это приложение для синтеза речи из те�
 <!-- UPDATE -->
 ## Обновление 1.0.0
 
-- [x] Добавлено использование GPU для ускорения обработки.
-- [x] Переключение работы с CPU на GPU и обратно
-- [x] Улучшения качества фона, при создании анимации
-- [x] Добавлен панель для тренировки модели нейронной сети Tacotron2 (результат тренировки в .wunjo/user_trained_voice)
-- [x] Добавлен панель для тренировки модели нейронной сети Waveglow (результат тренировки в .wunjo/user_trained_voice)
-
-## Обновление 1.0.1
-
-- [x] Добавлена консоль для отслеживания процесса обучения и синтеза.
-
-Примечание: Расширения для работы с GPU, доступно, если у вас стоит CUDA.
+- [x] Добавление API ключа Open AI.
+- [x] Генерация диалогов для txt2voice
+- [x] Генерация изображения txt2img для анимирования
 
 <!-- INSTALL -->
 ## Установка
 
 Скачать в директорию `.wunjo/extensions/{folder}`
+
+Зарегистрироваться в https://platform.openai.com/account/api-keys, cоздать ключ и проделать шаги для его активации (для активации ключа OpenAI необходимо set up paid account).
 
 <!-- FORMAT -->
 ## Формат расширения
