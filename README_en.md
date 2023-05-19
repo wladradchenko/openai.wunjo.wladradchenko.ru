@@ -1,6 +1,6 @@
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/v/release/wladradchenko/extensions.wunjo.wladradchenko.ru?display_name=tag&sort=semver)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru)
-[![License: MIT v1.0](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/wladradchenko/extensions.wunjo.wladradchenko.ru/blob/main/LICENSE)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru/blob/main/LICENSE)
+[![GitHub package version](https://img.shields.io/github/v/release/wladradchenko/openai.wunjo.wladradchenko.ru?display_name=tag&sort=semver)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru)
+[![License: MIT v1.0](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/wladradchenko/openai.wunjo.wladradchenko.ru/blob/main/LICENSE)
 
 <p align="right">(<a href="README_en.md">RU</a>)</p>
 <div id="top"></div>
@@ -11,19 +11,26 @@
     <img src="example/robot.gif" alt="Logo" width="180" height="180">
   </a>
 
-  <h3 align="center">Extensions Wunjo AI</h3>
+  <h3 align="center">ChatGPT + Dall-e 2 in Wunjo AI</h3>
+  <h4 align="center">Extensions</h4>
 
   <p align="center">
     Project documentation
     <br/>
     <br/>
     <br/>
-    <a href="https://github.com/wladradchenko/voiceai.wladradchenko.ru/issues">Issue</a>
+    <a href="https://github.com/wladradchenko/wunjo.wladradchenko.ru/issues">Issue</a>
     ·
-    <a href="https://github.com/wladradchenko/voiceai.wladradchenko.ru/issues">Features</a>
+    <a href="https://github.com/wladradchenko/wunjo.wladradchenko.ru/issues">Features</a>
   </p>
 </div>
 
+<!-- ABOUT THE EXTENSIONS -->
+## About extension
+
+The extension adds to the main application:
+- Dialog generation
+- Generation of txt2img image
 
 <!-- ABOUT THE PROJECT -->
 ## About
@@ -43,16 +50,19 @@ All in all, this neural network desktop application is a handy and powerful tool
 - [x] Added panel for training Tacotron2 neural network model (training result in .wunjo/user_trained_voice)
 - [x] Added panel for training Waveglow neural network model (training result in .wunjo/user_trained_voice)
 
-## Update 1.0.1
+<!-- UPDATE -->
+## Update 1.0.0
 
-- [x] Added console to track learning and synthesis progress.
-
-Note: GPU solutions available if you have CUDA installed.
+- [x] Adding Open AI API key.
+- [x] Dialog generation for txt2voice
+- [x] Generate txt2img image for animation
 
 <!-- INSTALL -->
 ## Installation
 
 Download to directory `.wunjo/extensions/{folder}`
+
+Register at [Open AI](https://platform.openai.com/account/api-keys), create a key and follow the steps to activate it (you need to set up paid account to activate an OpenAI key).
 
 <!-- FORMAT -->
 ## Extension format
