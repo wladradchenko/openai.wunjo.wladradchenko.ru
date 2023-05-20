@@ -73,7 +73,7 @@ def run(media_folder, extension_folder, app):
             thematic = request_list["thematic"]
             voices = request_list["voices"]
             question = "Напиши диалог не больше 1200 символов на русском языке. " + "Диалог о " + thematic + ". Диалог между " + ", ".join(
-                voice for voice in voices) + ". Соблюдай формат list of dict [{here set name of speaker: here set text}, {name: text}]"
+                voice for voice in voices) + ". Соблюдай формат list of dict [{'here set name of speaker': 'here set text'}, {'here set name of speaker': 'here set text'}]"
 
             if len(str(thematic)) == 0:
                 app.config['SYSNTHESIZE_STATUS'] = {"status_code": 200, "message": f"Введите тему для диалога"}
@@ -113,6 +113,7 @@ def run(media_folder, extension_folder, app):
                 # Extract the list substring from the response string
                 completion = completion[start_pos : end_pos + 1]
                 # Load json
+                completion = completion.replace("'", '"')
                 app.config['OPENAI_API_GENERATE_DIALOG'] = json.loads(completion)
                 
                 app.config['SYSNTHESIZE_STATUS'] = {"status_code": 200, "message": ""}
