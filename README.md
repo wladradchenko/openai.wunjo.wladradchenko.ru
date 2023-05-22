@@ -68,7 +68,7 @@ Wunjo AI - это приложение для синтеза речи из те�
 <!-- VIDEO -->
 ## Видео
 
-[![Watch the video](example/demo.mp4)
+<video  src="example/demo.mp4" type="video/mp4"> </video>
 
 <!-- CONTACT -->
 ## Контакт
