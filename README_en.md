@@ -73,6 +73,11 @@ To add new elements to the front of the project, you need to create a templates/
 
 An example of creating an extension structure in this project.
 
+<!-- VIDEO -->
+## Video
+
+[![Watch the video](https://cdn1.tenchat.ru/static/vbc-gostinder/2023-05-22/f9fa5fb8-4e0f-4861-831f-03243633cef6.jpeg)](https://kinescope.io/204183724/original)
+
 <!-- CONTACT -->
 ## Контакт
 
